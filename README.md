@@ -1,5 +1,5 @@
 # Gretel PII Transform Pre-Commit Hook
-This project is an of using Gretel's PII Transform tool paired with Git Hooks to automatically detect csv files with potential PII that are being commited to git by mistake. The tool will then transform and replace the original CSV files to ensure PII isn't linked
+This project is an example of using Gretel's PII Transform tool paired with Git Hooks to automatically detect csv files with potential PII that are being commited to git by mistake. The tool will then transform and replace the original CSV files to ensure PII isn't linked
 
 ## First Clone
 When you first clone this repository, run the following command:
