@@ -12,12 +12,12 @@ if PROJECT_NAME is None:
     PROJECT_NAME = getpass("Gretel Project Name: ")
 
 MODEL_ID = os.getenv("GRETEL_MODEL_ID")
-if PROJECT_NAME is None:
-    PROJECT_NAME = getpass("Gretel Model ID: ")
+if MODEL_ID is None:
+    MODEL_ID = getpass("Gretel Model ID: ")
 
 GRETEL_TOKEN = os.getenv("GRETEL_TOKEN")
-if PROJECT_NAME is None:
-    PROJECT_NAME = getpass("Gretel API Token: ")
+if GRETEL_TOKEN is None:
+    GRETEL_TOKEN = getpass("Gretel API Token: ")
 
 
 def write_gretel_transform(csvs):
