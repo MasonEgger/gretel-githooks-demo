@@ -20,8 +20,8 @@ Once you have done this you need locate the name of your Project (found under Se
 The git hook can either read the necessary Gretel configuration from environment variables. 
 You need to set the following environment variables:
 
-* `PROJECT_NAME` - The name of your Project in Gretel = os.getenv("GRETEL_PROJECT_NAME", None)
-* `MODEL_ID` - The ID of the model to run the Transform against
+* `GRETEL_PROJECT_NAME` - The name of your Project in Gretel = os.getenv("GRETEL_PROJECT_NAME", None)
+* `GRETEL_MODEL_ID` - The ID of the model to run the Transform against
 * `GRETEL_TOKEN` - Your Gretel API Key, found in your Gretel Dashboard
 
 If you don't provide any of these, the commit script will prompt you for them.
